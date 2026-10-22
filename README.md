@@ -1,11 +1,11 @@
 # OCB.GG Obsidian Glass — TeamSpeak 3
 
-Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.1**.
+Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.2**.
 Anthrazit, Silber, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
 ## Download und Installation
-1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.1.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.1.ts3_style) herunterladen (bei GitHub **Download raw file**).
+1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.2.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.2.ts3_style) herunterladen (bei GitHub **Download raw file**).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
 3. In TS3 **Extras → Optionen → Design** das Theme **ocb_obsidian** wählen. Falls angeboten, den Stil **Fusion** wählen; dieser ist die geprüfte Qt-Basis.
 4. Übernehmen und TS3 gegebenenfalls neu starten.
@@ -18,7 +18,7 @@ Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_ob
 ## Grafik und Grenzen
 - Glastextur: 3840 × 2160, aus 1672 × 941 hochskaliert; keine native 4K-Detailaufnahme.
 - Originalbanner: 2172 × 724, unverändert. Darstellung im Server-Infobereich: 480 × 160; sehr schmale Infobereiche benötigen mehr Platz.
-- Ein Hintergrund über den gesamten Kanalbaum, keine wiederholten Bildstreifen je Kanal. Qt passt die Textur an die Fläche an; extreme Seitenverhältnisse können sie verzerren.
+- Ein Hintergrund über den gesamten Kanalbaum, keine wiederholten Bildstreifen je Kanal. Die Textur bleibt proportional und fest verankert, wird nicht auf die Fensterform gestreckt und läuft nach unten weich in die Grundfarbe aus.
 - Original-Bigcircle im Infobereich. Vorhandene Server-, Gruppen-, Mikrofon- und Statusicons bleiben erhalten. Dieses Paket ersetzt keine globalen Servericons.
 - Keine Plugins, Skripte oder extern geladenen Ressourcen. Das Theme fügt keine Bildschirmfreigabe oder andere Clientfunktionen hinzu.
 - Aufbau anhand der installierten TS3-3.5.6-Dateien geprüft. Native Qt-5-Testoberfläche geprüft; noch kein vollständiger Funktionstest im laufenden TS3-Client. Daher ausdrücklich Beta. Andere Versionen und Betriebssysteme sind nicht live geprüft.

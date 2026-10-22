@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass — TS3 / 1.0.0-beta.1
+/* OCB.GG Obsidian Glass — TS3 / 1.0.0-beta.2
  * QPalette::Window = #14171b;
  * QPalette::WindowText = #eef0f3;
  * QPalette::Base = #101318;
@@ -37,7 +37,7 @@ QTreeView::item, QListView::item { padding: 4px 2px; }
 QTreeView::item:hover, QListView::item:hover { background: #303a46; }
 QTreeView::item:selected, QListView::item:selected, QTableView::item:selected { background: #445466; color: #ffffff; }
 /* One viewport texture, never repeated on individual channel rows. */
-QTreeView#ServerTreeView { border-image: url('styles:ocb_obsidian/glass-dark.svg') 0 0 0 0 stretch stretch; background-color: #101318; alternate-background-color: transparent; }
+QTreeView#ServerTreeView { border-image: none; background-image: url('styles:ocb_obsidian/glass-dark.svg'); background-repeat: none; background-position: top left; background-attachment: fixed; background-color: #101318; alternate-background-color: transparent; }
 QTreeView#ServerTreeView::item { background-color: transparent; padding: 5px 3px; }
 QTreeView#ServerTreeView::item:hover { background-color: rgba(48,58,70,235); }
 QTreeView#ServerTreeView::item:selected { background-color: #445466; color: #ffffff; }

@@ -1,9 +1,13 @@
 {
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "qt": "5.15.2",
   "qss_parse_errors": [],
   "assets_decode": true,
-  "native_fixture": "1280x850",
+  "native_fixture": [
+    "1280x850",
+    "1280x1700"
+  ],
+  "background_stretch_removed": true,
   "live_ts3_test": false,
   "limitations": [
     "No connected TS3 runtime test",
