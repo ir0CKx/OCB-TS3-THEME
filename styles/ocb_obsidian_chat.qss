@@ -1,6 +1,6 @@
 /* OCB chat colors; original message markup and status meanings retained. */
 body, .TextMessage_Message, .TextMessage_Normal, .InfoFrame { color: #eef0f3; }
-a, .TextMessage_UserLink, .TextMessage_OfflineLink, .TextMessage_ChannelLink, .TextMessage_ServerLink { color: #a9d7ff; }
+a, .TextMessage_UserLink, .TextMessage_OfflineLink, .TextMessage_ChannelLink, .TextMessage_ServerLink { color: #fa8072; }
 .TextMessage_Time, .Inactive { color: #b3bdc9; }
 .TextMessage_Welcome, .TextMessage_HostMessage, .TextMessage_Poke, .Active { color: #72d99c; }
 .TextMessage_ServerError, .TextMessage_ClientKicked, .TextMessage_ClientBanned, .Important { color: #ff8181; }
