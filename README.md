@@ -1,11 +1,11 @@
 # OCB.GG Obsidian Glass — TeamSpeak 3
 
-Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.3**.
+Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.4**.
 Anthrazit, Silber, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
 ## Download und Installation
-1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.3.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.3.ts3_style) herunterladen (bei GitHub **Download raw file**).
+1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.4.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.4.ts3_style) herunterladen (bei GitHub **Download raw file**).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
 3. In TS3 **Extras → Optionen → Design** das Theme **ocb_obsidian** wählen. Falls angeboten, den Stil **Fusion** wählen; dieser ist die geprüfte Qt-Basis.
 4. Übernehmen und TS3 gegebenenfalls neu starten.
@@ -28,7 +28,7 @@ Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_ob
 Die Vorschau verwendet die echten QSS-Dateien in einer nativen Qt-5-Testoberfläche. Serverdaten sind Beispieldaten.
 
 ## Nutzerinformationen (ab Beta 3)
-Beim Anklicken eines Nutzers zeigt das Infofenster UID, Sitzungs-ID, Datenbank-ID, Version, Plattform, Onlinezeit, erste/letzte Verbindung, Verbindungsanzahl und Talk Power. Beschreibung, Abwesenheit und lokale Lautstärke erscheinen bei vorhandenem Inhalt. Server-/Channelgruppen, Abzeichen, Avatar, Statusicons und Plugininformationen bleiben vorgesehen. Manche Angaben liefert TS3 nur mit passenden Berechtigungen oder nach einer Datenabfrage; ein Theme kann fehlende Daten nicht beschaffen. UID und Sitzungs-ID sind unterschiedliche Werte. Die Texte dieses eigenen Templates sind deutsch.
+Beim Anklicken eines Nutzers zeigt das Infofenster UID, Sitzungs-ID, Datenbank-ID, Version, Plattform, Onlinezeit, erste/letzte Verbindung und Verbindungsanzahl. Beschreibung, Abwesenheit und lokale Lautstärke erscheinen bei vorhandenem Inhalt. Server-/Channelgruppen, Abzeichen, Avatar, Statusicons und Plugininformationen bleiben vorgesehen. Manche Angaben liefert TS3 nur mit passenden Berechtigungen oder nach einer Datenabfrage; ein Theme kann fehlende Daten nicht beschaffen. UID und Sitzungs-ID sind unterschiedliche Werte. Die Texte dieses eigenen Templates sind deutsch.
 
 ## Banner proportional mitskalieren
 Der Banner oberhalb des Infofensters ist der **Hostbanner des Servers**. Seine Größenanpassung wird serverseitig gesteuert, nicht durch das QSS-Theme.

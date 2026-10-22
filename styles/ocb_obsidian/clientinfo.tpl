@@ -25,7 +25,6 @@ Optional fields must occupy a separate line for TS3's conditional replacement.
 <tr><td class="Label">Erstmals verbunden</td><td>%%?CLIENT_CREATED%%</td></tr>
 <tr><td class="Label">Zuletzt verbunden</td><td>%%?CLIENT_LASTCONNECTED%%</td></tr>
 <tr><td class="Label">Verbindungen gesamt</td><td>%%?CLIENT_TOTALCONNECTIONS%%</td></tr>
-<tr><td class="Label">Talk Power</td><td>%%CLIENT_TALK_POWER%%</td></tr>
 <tr><td class="Label">Abwesend</td><td>%%?CLIENT_AWAY_MESSAGE%%</td></tr>
 <tr><td class="Label">Lokale Lautstärke</td><td>%%?CLIENT_VOLUME_MODIFIER%% dB</td></tr>
 </table>
