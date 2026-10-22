@@ -1,0 +1,44 @@
+﻿# OCB.GG Obsidian Glass – Nutzungsbedingungen
+Version 1.0 · Stand: 22. Oktober 2026
+
+## 1. Gegenstand
+Diese Bedingungen gelten für das von OCB.GG / #OTHERSCANTBEAT bereitgestellte Theme „OCB.GG Obsidian Glass“ für TeamSpeak 3 einschließlich QSS, Installationshilfen und mitgelieferter OCB-Grafiken. Sie gelten auch für die optionalen Serverbanner. Für TeamSpeak selbst gelten die Bedingungen des jeweiligen Anbieters. Dieses Theme ist ein eigenständiges Community-Projekt und kein offizielles Produkt von TeamSpeak.
+
+Offizielles Projekt: https://github.com/ir0CKx/OCB-TS3-THEME
+
+## 2. Kostenlose Nutzung
+Soweit OCB.GG über die erforderlichen Rechte verfügt, wird ein einfaches, weltweites, unentgeltliches und zeitlich unbefristetes Recht eingeräumt, das Paket für die nachfolgend genannten Zwecke zu nutzen. Eine Übertragung von Eigentum an Marken oder sonstigen Schutzrechten findet nicht statt.
+
+Erlaubt sind:
+- Installation und Nutzung auf eigenen Geräten, privat sowie im beruflichen oder kommerziellen Umfeld.
+- Verwendung der mitgelieferten Serverbanner auf selbst betriebenen oder verwalteten TeamSpeak-Servern, einschließlich der dafür notwendigen Übertragung und Anzeige an deren Nutzer.
+- Sicherungskopien und lokale Anpassungen für die eigene Nutzung, etwa Farben, Abstände und Skalierung. Diese Anpassungen dürfen innerhalb der eigenen Organisation eingesetzt werden.
+- Screenshots, Videos und Streams, in denen das Theme im normalen Einsatz sichtbar ist, auch bei monetarisierten Inhalten.
+
+Die kommerzielle Nutzung der Oberfläche erlaubt nicht den Verkauf des Themes oder seiner Bestandteile.
+
+## 3. Weitergabe und Änderungen
+Das vollständige, unveränderte Paket darf kostenlos weitergegeben werden, wenn diese Bedingungen und die Herkunftshinweise enthalten bleiben und auf das offizielle Projekt verwiesen wird. Die Weitergabe darf nicht von einer Zahlung für das Paket abhängig gemacht werden.
+
+Die Veröffentlichung oder Verteilung veränderter Versionen außerhalb der eigenen Organisation sowie die Aufnahme in andere Designpakete bedürfen der vorherigen Zustimmung von OCB.GG in Textform. Die Bereitstellung des Quellcodes macht dieses Paket nicht zu einer Open-Source-Lizenz mit uneingeschränkter Weiterverwendung.
+
+Soweit die Hosting-Plattform für die Darstellung und technische Zusammenarbeit eigene Rechte, etwa zur Ansicht oder zu Plattform-Forks, wirksam einräumt, bleiben diese unberührt. Daraus folgt keine zusätzliche Erlaubnis zum Verkauf oder zur eigenständigen Vermarktung des Themes.
+
+## 4. Marken, Logos und Grafiken
+OCB.GG, #OTHERSCANTBEAT und das OCB-Bigcircle-Logo dürfen im Rahmen der erlaubten Theme- und Serverbanner-Nutzung angezeigt werden. Eine separate Nutzung als eigenes Logo, auf Merchandise, in Werbung oder in anderen Produkten ist ohne vorherige Zustimmung von OCB.GG nicht gestattet.
+
+Nicht erlaubt sind insbesondere der Weiterverkauf des Pakets oder einzelner Bestandteile, deren kostenpflichtige Unterlizenzierung sowie eine Darstellung, die fälschlich eine Urheberschaft, Partnerschaft oder offizielle Unterstützung durch OCB.GG oder TeamSpeak behauptet. Herkunfts- und Rechtehinweise dürfen bei einer Weitergabe nicht entfernt werden.
+
+## 5. Technischer Umfang
+Das Paket verändert das Erscheinungsbild des Clients. Sprachchat, Bildschirmfreigabe, Nachrichten, Berechtigungen und Netzwerkfunktionen werden von TeamSpeak bereitgestellt und hängen von dessen Version und Konfiguration ab.
+
+Eine bestimmte Kompatibilität mit allen Client-Versionen, Betriebssystemen, Erweiterungen oder Display-Skalierungen wird nicht zugesagt. Eine Verpflichtung zu Support oder zukünftigen Updates wird durch diese Lizenz nicht begründet. Im Paket ausgewiesene Testgrenzen und bekannte Einschränkungen sind zu beachten.
+
+## 6. Gesetzliche Rechte und Haftung
+Für Mängel und Schäden gelten die gesetzlichen Bestimmungen. Diese Bedingungen enthalten keinen pauschalen Haftungsausschluss. Zwingende gesetzliche Rechte, insbesondere gesetzlich erlaubte Nutzungen, bleiben unberührt.
+
+## 7. Rechte Dritter und zusätzliche Erlaubnisse
+Rechte Dritter an TeamSpeak und sonstigen gekennzeichneten Bestandteilen bleiben bestehen. Diese Bedingungen räumen nur solche Rechte ein, über die der Herausgeber verfügen darf. Weitere Nutzungen können mit dem Herausgeber in Textform vereinbart werden.
+
+## 8. Änderungen der Bedingungen
+Für eine bezogene Paketversion gelten die mit ihr ausgelieferten Bedingungen. Eine spätere Veröffentlichung anderer Bedingungen schränkt bereits eingeräumte Rechte an dieser Version nicht rückwirkend ein.

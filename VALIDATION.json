@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0-beta.1",
+  "qt": "5.15.2",
+  "qss_parse_errors": [],
+  "assets_decode": true,
+  "native_fixture": "1280x850",
+  "live_ts3_test": false,
+  "limitations": [
+    "No connected TS3 runtime test",
+    "No macOS or Linux runtime test",
+    "Fixed 480px info banner"
+  ]
+}
