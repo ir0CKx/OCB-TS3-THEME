@@ -24,12 +24,6 @@ Optional fields must occupy a separate line for TS3's conditional replacement.
 %%??CLIENT_FLAG_BADGES%%<table class="InfoFrame_Table" cellspacing="0" cellpadding="3">
 %%??CLIENT_FLAG_BADGES%%<tr><td>%%CLIENT_BADGE_ICON_SMALL%%</td><td title="%%CLIENT_BADGE_DESCRIPTION%%">%%CLIENT_BADGE_NAME%%</td></tr>
 %%??CLIENT_FLAG_BADGES%%</table>
-<p><b>Identität</b></p>
-<p><span class="Label">Eindeutige ID (UID)</span><br /><span style="font-family: monospace;">%%CLIENT_UNIQUE_ID%%</span></p>
-<table class="InfoFrame_Table" cellspacing="0" cellpadding="3">
-<tr><td class="Label">Client-ID (Sitzung)</td><td>%%CLIENT_ID%%</td></tr>
-<tr><td class="Label">Datenbank-ID</td><td>%%?CLIENT_DATABASE_ID%%</td></tr>
-</table>
 <p><b>Verbindung &amp; Client</b></p>
 <table class="InfoFrame_Table" cellspacing="0" cellpadding="3">
 <tr><td class="Label">Version</td><td>%%?CLIENT_VERSION_LONG%%</td></tr>
@@ -44,4 +38,10 @@ Optional fields must occupy a separate line for TS3's conditional replacement.
 <p class="Important"><b>Sprechwunsch</b><br />%%?CLIENT_TALK_REQUEST_TIME%%</p>
 <p class="Important">%%?CLIENT_TALK_REQUEST_MSG%%</p>
 <table class="InfoFrame_Table">%%?PLUGIN_INFO_DATA%%</table>
+<p><b>Identität</b></p>
+<p><span class="Label">Eindeutige ID (UID)</span><br /><span style="font-family: monospace;">%%CLIENT_UNIQUE_ID%%</span></p>
+<table class="InfoFrame_Table" cellspacing="0" cellpadding="3">
+<tr><td class="Label">Client-ID (Sitzung)</td><td>%%CLIENT_ID%%</td></tr>
+<tr><td class="Label">Datenbank-ID</td><td>%%?CLIENT_DATABASE_ID%%</td></tr>
+</table>
 </div>
