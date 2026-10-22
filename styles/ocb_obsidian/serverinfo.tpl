@@ -1,5 +1,4 @@
 <div class="InfoFrame">
-<img src="styles:ocb_obsidian/header.png" width="480" height="160" alt="OCB.GG / OTHERSCANTBEAT" />
 <h2>%%SERVER_ICON_SCALED%% %%SERVER_NAME%%</h2>
 <table class="InfoFrame_Table">
 <tr><td>%%TR_SERVER_ADDRESS%%</td><td>%%SERVER_ADDRESS%% :%%SERVER_PORT%%</td></tr>
