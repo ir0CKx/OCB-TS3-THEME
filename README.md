@@ -4,6 +4,8 @@ Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.7**.
 Anthrazit, lachsrote Akzente, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
+[Changelog – Änderungen bis Beta 7](CHANGELOG.md)
+
 ## Download und Installation
 1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.7.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.7.ts3_style) herunterladen (bei GitHub **Download raw file**).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
