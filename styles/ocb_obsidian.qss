@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass — TS3 / 1.0.0-beta.6
+/* OCB.GG Obsidian Glass — TS3 / 1.0.0-beta.7
  * QPalette::Window = #14171b;
  * QPalette::WindowText = #eef0f3;
  * QPalette::Base = #101318;
@@ -41,7 +41,7 @@ QTreeView#ServerTreeView { border-image: none; background-image: url('styles:ocb
 QTreeView#ServerTreeView::item { background-color: transparent; padding: 5px 3px; }
 QTreeView#ServerTreeView::item:hover { background-color: rgba(70,42,38,235); }
 QTreeView#ServerTreeView::item:selected { background-color: #884038; color: #ffffff; }
-QTextEdit#InfoFrame { background-image: url('styles:ocb_obsidian/bigcircle-96.png'); background-position: bottom right; background-repeat: none; background-attachment: fixed; padding: 12px; }
+QTextEdit#InfoFrame { background-image: url('styles:ocb_obsidian/watermark.svg'); background-position: bottom right; background-repeat: none; background-attachment: fixed; padding: 12px; }
 QTextEdit#ChatTab { background-image: none; background-color: #101318; padding: 8px; }
 QTextEdit#ChatLineEdit[helpTextVisible="true"] { color: #b3bdc9; }
 QTextEdit#ChatLineEdit[helpTextVisible="false"] { color: #eef0f3; }
