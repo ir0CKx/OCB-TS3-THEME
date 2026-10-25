@@ -1,5 +1,5 @@
 # TS3 / TS6 – Funktionsabgleich
-Stand: TS3 1.0.0-beta.9 / TS6 1.0.0-rc.32. Gleicher Gestaltungsstand bedeutet keine identischen Clientfunktionen.
+Stand: TS3 1.0.0-beta.10 / TS6 1.0.0-rc.32. Gleicher Gestaltungsstand bedeutet keine identischen Clientfunktionen.
 
 | Bereich | TS3-Umsetzung |
 |---|---|
@@ -11,7 +11,7 @@ Stand: TS3 1.0.0-beta.9 / TS6 1.0.0-rc.32. Gleicher Gestaltungsstand bedeutet ke
 | Hintergrund | Bewährte nicht gestreckte Einzeltextur bleibt; keine erneute Hochskalierung |
 | Besuche uns | Echter OCB.GG-Link in HOW TO USE und Serverinfo-Template |
 | Banner | TS3-Hostbanner bleibt serverseitig proportional zu konfigurieren; kein Client-Patch |
-| Sprechlampe/Servericons | Zusätzliches Icon Pack ocb_white: Sprechblase weiß/gedimmt; übrige Icons über Standard-Fallback |
+| Sprechlampe/Servericons | Zusätzliches Icon Pack ocb_white: Sprechblase weiß/gedimmt; übrige Icons mit unveränderter moderner TS3-Iconbasis |
 | Dashboard/Bildschirmfreigabe | Keine Entsprechung im TS3-Style; keine Fake-Schaltflächen |
 | Chat | Bestehende lachsrote Links und lesbare Abstände; keine Web-CSS-Flexlayouts, automatischen Linkvorschauen, Rollenzuweisungen oder Emoji-Ersetzung |
 | Installation | Nativer .ts3_style-Paketinstaller statt TS6-Extensions-Kopierskript |

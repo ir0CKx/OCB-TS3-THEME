@@ -1,6 +1,6 @@
 """Validate release archives, required assets and reproducibility."""
 from pathlib import Path
-import hashlib, io, re, subprocess, sys, zipfile
+import hashlib, io, re, subprocess, sys, zipfile, json
 r=Path(__file__).resolve().parents[1]
 subprocess.run([sys.executable,str(r/'tools/build.py')],check=True)
 version=re.search(r'^Version = (.+)$',(r/'package.ini').read_text(),re.M)[1]
@@ -18,7 +18,9 @@ with zipfile.ZipFile(paths[0]) as z:
   assert href.startswith(('https://','#')) or href in z.namelist(),href
 with zipfile.ZipFile(paths[1]) as z:
  assert z.testzip() is None
- assert len(z.namelist())==13
+ assert len(z.namelist())==10+sum(p.is_file() for p in (r/'gfx/ocb_white').rglob('*'))
+ for name,digest in json.loads((r/'docs/ICON-BASELINE.json').read_text()).items():
+  assert hashlib.sha256(z.read('gfx/ocb_white/'+name)).hexdigest()==digest,name
  assert all('..' not in Path(n).parts and not n.startswith(('/','\\')) for n in z.namelist())
  qss=z.read('styles/ocb_obsidian.qss').decode('utf-8')
  for asset in re.findall(r"url\(['\"]?styles:([^'\")]+)",qss):

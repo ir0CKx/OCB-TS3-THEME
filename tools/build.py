@@ -11,7 +11,7 @@ if __name__=='__main__':
     c=configparser.ConfigParser();c.read_string('[Package]\n'+(ROOT/'package.ini').read_text());version=c['Package']['Version']
     dest=ROOT/'dist';dest.mkdir(exist_ok=True)
     names=['package.ini','styles/ocb_obsidian.qss','styles/ocb_obsidian_chat.qss']+['styles/ocb_obsidian/'+n for n in ['clientinfo.tpl','serverinfo.tpl','glass-dark.svg','watermark.svg','arrow-up.svg','arrow-down.svg','LICENSE.txt']]
-    names += ['gfx/ocb_white/'+n for n in ['settings.ini','player_on.svg','player_off.svg']]
+    names += [p.relative_to(ROOT).as_posix() for p in sorted((ROOT/'gfx/ocb_white').rglob('*')) if p.is_file()]
     style=write_zip(dest/f'OCB.GG-Glass-Dark-Theme-TS3-v{version}.ts3_style',{n:(ROOT/n).read_bytes() for n in names})
     bundle=write_zip(dest/f'OCB.GG-Glass-Dark-Theme-TS3-v{version}.zip',{style.name:style.read_bytes(),'HOW TO USE.html':(ROOT/'docs/HOW TO USE.html').read_bytes(),'NUTZUNGSBEDINGUNGEN.txt':(ROOT/'LICENSE.txt').read_bytes()})
     (dest/'SHA256SUMS.txt').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name+'\n' for p in [style,bundle]))

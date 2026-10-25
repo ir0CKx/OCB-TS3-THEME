@@ -3,6 +3,13 @@
 Änderungen am OCB.GG Obsidian Glass Theme für TeamSpeak 3.
 Beta 1 bis 7 wurden am 22. Oktober 2026 veröffentlicht.
 
+## 1.0.0-beta.10 — 25. Oktober 2026
+
+- Regression aus Beta 9 behoben: Server-, Channel-, Audio- und andere Icons verwenden wieder die vollständige moderne TS3-Iconbasis anstelle des historischen Standard-Fallbacks.
+- Native runde Sprechindikatoren statt Sprechblasen mit Zipfel. Originalform und Verläufe bleiben erhalten; aktiv weiß, inaktiv dunkelgrau/weiß, ohne Blau.
+- Transparente Channelgruppe bleibt erhalten.
+- Prüfsummenvergleich aller übrigen Icons gegen die native Basis ergänzt. Live-Prüfung der Sprechzustände steht weiterhin aus.
+
 ## 1.0.0-beta.9 — 25. Oktober 2026
 
 - Hinterlegung der Channelgruppe entfernt: wieder transparent, ohne Highlight.

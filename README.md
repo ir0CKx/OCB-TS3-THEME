@@ -1,13 +1,13 @@
 # OCB.GG - Glass & Dark Theme — TeamSpeak 3
 
-Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.9**.
+Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.10**.
 Anthrazit, lachsrote Akzente, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
-[Changelog – Änderungen bis Beta 9](CHANGELOG.md)
+[Changelog – Änderungen bis Beta 10](CHANGELOG.md)
 
 ## Download und Installation
-1. [Downloadpaket mit HOW TO USE](https://github.com/ir0CKx/OCB-TS3-THEME/releases/tag/v1.0.0-beta.9) herunterladen und entpacken. Alternativ: [direktes TS3-Installationspaket](downloads/OCB.GG-Glass-Dark-Theme-TS3-v1.0.0-beta.9.ts3_style).
+1. [Downloadpaket mit HOW TO USE](https://github.com/ir0CKx/OCB-TS3-THEME/releases/tag/v1.0.0-beta.10) herunterladen und entpacken. Alternativ: [direktes TS3-Installationspaket](downloads/OCB.GG-Glass-Dark-Theme-TS3-v1.0.0-beta.10.ts3_style).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
 3. In TS3 **Extras → Optionen → Design** das Theme **ocb_obsidian** wählen. Falls angeboten, den Stil **Fusion** wählen; dieser ist die geprüfte Qt-Basis.
 4. Übernehmen und TS3 gegebenenfalls neu starten.
@@ -19,7 +19,7 @@ Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_ob
 
 ## Weiße Sprechblasen
 
-Das Paket enthält das zusätzliche Icon Pack **ocb_white**. Nach der Installation unter **Extras → Optionen → Design → Icon Pack** auswählen und bei Bedarf TS3 neu starten. Sprechend: weiß; inaktiv: gedimmt weiß/grau. Andere Icons verwenden den eingebauten Standard-Fallback. Individuell gewählte andere Icon-Packs werden dadurch ersetzt; Whisper-/Commander-Statusicons bleiben nativ. Die Channelgruppe hat ab Beta 9 keine farbige Hinterlegung.
+Das Paket enthält das zusätzliche Icon Pack **ocb_white**. Nach der Installation unter **Extras → Optionen → Design → Icon Pack** auswählen und bei Bedarf TS3 neu starten. Sprechend: weiß; inaktiv: gedimmt weiß/grau. Die vollständige moderne TS3-Iconbasis bleibt erhalten. Individuell gewählte andere Icon-Packs werden dadurch ersetzt; Whisper-/Commander-Statusicons bleiben nativ. Die Channelgruppe hat ab Beta 9 keine farbige Hinterlegung.
 
 ## Grafik und Grenzen
 - Glastextur: 3840 × 2160, aus 1672 × 941 hochskaliert; keine native 4K-Detailaufnahme.
