@@ -18,13 +18,15 @@ with zipfile.ZipFile(paths[0]) as z:
   assert href.startswith(('https://','#')) or href in z.namelist(),href
 with zipfile.ZipFile(paths[1]) as z:
  assert z.testzip() is None
- assert len(z.namelist())==10
+ assert len(z.namelist())==13
  assert all('..' not in Path(n).parts and not n.startswith(('/','\\')) for n in z.namelist())
  qss=z.read('styles/ocb_obsidian.qss').decode('utf-8')
  for asset in re.findall(r"url\(['\"]?styles:([^'\")]+)",qss):
   assert 'styles/'+asset in z.namelist(),asset
  assert z.read('styles/ocb_obsidian/LICENSE.txt')==(r/'LICENSE.txt').read_bytes()
  client=z.read('styles/ocb_obsidian/clientinfo.tpl').decode('utf-8')
+ assert 'bgcolor=' not in client
+ assert 'FALLBACK=true' in z.read('gfx/ocb_white/settings.ini').decode()
  assert 'CLIENT_TALK_POWER' not in client
  assert client.index('Verbindung &amp; Client') < client.index('<b>Identität</b>')
 for line in (r/'dist/SHA256SUMS.txt').read_text().splitlines():

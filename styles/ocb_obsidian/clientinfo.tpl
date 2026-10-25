@@ -18,7 +18,7 @@ Optional fields must occupy a separate line for TS3's conditional replacement.
 </table>
 <p><b>Channelgruppe</b></p>
 <table class="InfoFrame_Table" cellspacing="0" cellpadding="3">
-<tr><td>%%CLIENT_CHANNEL_GROUP_ICON%%</td><td bgcolor="#42474f" style="color: #f3f4f6;">%%CLIENT_CHANNEL_GROUP_NAME%%</td></tr>
+<tr><td>%%CLIENT_CHANNEL_GROUP_ICON%%</td><td>%%CLIENT_CHANNEL_GROUP_NAME%%</td></tr>
 </table>
 %%??CLIENT_FLAG_BADGES%%<p><b>Abzeichen</b></p>
 %%??CLIENT_FLAG_BADGES%%<table class="InfoFrame_Table" cellspacing="0" cellpadding="3">

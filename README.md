@@ -1,13 +1,13 @@
 # OCB.GG - Glass & Dark Theme — TeamSpeak 3
 
-Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.8**.
+Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.9**.
 Anthrazit, lachsrote Akzente, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
-[Changelog – Änderungen bis Beta 8](CHANGELOG.md)
+[Changelog – Änderungen bis Beta 9](CHANGELOG.md)
 
 ## Download und Installation
-1. [Downloadpaket mit HOW TO USE](https://github.com/ir0CKx/OCB-TS3-THEME/releases/tag/v1.0.0-beta.8) herunterladen und entpacken. Alternativ: [direktes TS3-Installationspaket](downloads/OCB.GG-Glass-Dark-Theme-TS3-v1.0.0-beta.8.ts3_style).
+1. [Downloadpaket mit HOW TO USE](https://github.com/ir0CKx/OCB-TS3-THEME/releases/tag/v1.0.0-beta.9) herunterladen und entpacken. Alternativ: [direktes TS3-Installationspaket](downloads/OCB.GG-Glass-Dark-Theme-TS3-v1.0.0-beta.9.ts3_style).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
 3. In TS3 **Extras → Optionen → Design** das Theme **ocb_obsidian** wählen. Falls angeboten, den Stil **Fusion** wählen; dieser ist die geprüfte Qt-Basis.
 4. Übernehmen und TS3 gegebenenfalls neu starten.
@@ -16,6 +16,10 @@ Falls keine Dateizuordnung existiert: Rechtsklick → Öffnen mit → `package_i
 Alternativ den Inhalt von `styles/` nach `%APPDATA%/TS3Client/styles/` kopieren. Bereits vorhandene Dateien dieses Themes vorher sichern.
 Linux: `~/.ts3client/styles/`; macOS: `~/Library/Application Support/TeamSpeak 3/styles/`.
 Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_obsidian_chat.qss` und den Ordner `ocb_obsidian` aus dem Benutzer-Styles-Verzeichnis entfernen.
+
+## Weiße Sprechblasen
+
+Das Paket enthält das zusätzliche Icon Pack **ocb_white**. Nach der Installation unter **Extras → Optionen → Design → Icon Pack** auswählen und bei Bedarf TS3 neu starten. Sprechend: weiß; inaktiv: gedimmt weiß/grau. Andere Icons verwenden den eingebauten Standard-Fallback. Individuell gewählte andere Icon-Packs werden dadurch ersetzt; Whisper-/Commander-Statusicons bleiben nativ. Die Channelgruppe hat ab Beta 9 keine farbige Hinterlegung.
 
 ## Grafik und Grenzen
 - Glastextur: 3840 × 2160, aus 1672 × 941 hochskaliert; keine native 4K-Detailaufnahme.
@@ -27,7 +31,7 @@ Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_ob
 
 ## Abgleich mit TS6 rc.32
 
-Beta 8 übernimmt die auf Qt übertragbaren Verbesserungen: graue Channelgruppen-Kennzeichnung, lesbare deaktivierte und inaktive Zustände, Fokus für Dezimalfelder, vertikale Lautstärkeregler und ein bereinigtes Downloadpaket. Die bewährte Hintergrundskalierung und die bisherigen lachsroten TS3-Akzente bleiben erhalten.
+Beta 8 übernimmt die auf Qt übertragbaren Verbesserungen: Channelgruppen ohne Hinterlegung, lesbare deaktivierte und inaktive Zustände, Fokus für Dezimalfelder, vertikale Lautstärkeregler und ein bereinigtes Downloadpaket. Die bewährte Hintergrundskalierung und die bisherigen lachsroten TS3-Akzente bleiben erhalten.
 
 [Funktionsvergleich und Plattformgrenzen](docs/PARITAET-TS6.md) · [Build und Prüfungen](docs/DEVELOPMENT.md). TS6-Dashboard und Bildschirmfreigabe lassen sich nicht als TS3-Theme nachrüsten.
 

@@ -15,6 +15,10 @@ qss=(root/'styles/ocb_obsidian.qss').read_text(encoding='utf-8')
 for p in re.findall(r"url\('styles:([^']+)'\)",qss):
     assert (root/'styles'/p).is_file(),p
     assert not G.QImage(str(root/'styles'/p)).isNull(),p
+for state in ['on','off']:
+    icon=G.QImage(str(root/'gfx/ocb_white'/f'player_{state}.svg'))
+    assert not icon.isNull()
+    assert icon.pixelColor(16,16).name()==('#ffffff' if state=='on' else '#777d85')
 app.setStyleSheet(qss)
 window=W.QMainWindow(); window.setWindowTitle('OCB Obsidian Glass — native Qt test preview (not live TS3)');window.resize(1280,850)
 for title in ['Verbindungen','Lesezeichen','Selbst','Rechte','Extras','Hilfe']:
@@ -81,6 +85,6 @@ for points in (10,15):
 controls.close()
 parse=[m for m in errors if 'stylesheet' in m.lower() or 'unknown property' in m.lower() or 'could not' in m.lower()]
 assert not parse,parse
-report={'version':'1.0.0-beta.8','qt':C.QT_VERSION_STR,'qss_parse_errors':parse,'assets_decode':True,'native_fixture':['1280x850','1280x1700','1100x1100 client info'],'controls_fonts_pt':[10,15],'disabled_text_palette_verified':True,'background_stretch_removed':True,'client_fields_documented':True,'optional_fields_fixture_test':True,'live_ts3_test':False,'limitations':['No connected TS3 runtime test','No macOS or Linux runtime test','Hostbanner scaling must be configured on the server','TS3 group and badge expansion not emulated by fixture']}
+report={'version':'1.0.0-beta.9','qt':C.QT_VERSION_STR,'qss_parse_errors':parse,'assets_decode':True,'native_fixture':['1280x850','1280x1700','1100x1100 client info'],'controls_fonts_pt':[10,15],'disabled_text_palette_verified':True,'background_stretch_removed':True,'client_fields_documented':True,'optional_fields_fixture_test':True,'live_ts3_test':False,'limitations':['No connected TS3 runtime test','No macOS or Linux runtime test','Hostbanner scaling must be configured on the server','TS3 group and badge expansion not emulated by fixture']}
 (results/'VALIDATION.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 print(json.dumps(report))
