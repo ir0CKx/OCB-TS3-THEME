@@ -1,7 +1,18 @@
 # Changelog
 
 Änderungen am OCB.GG Obsidian Glass Theme für TeamSpeak 3.
-Alle nachfolgenden Beta-Versionen wurden am 22. Oktober 2026 veröffentlicht.
+Beta 1 bis 7 wurden am 22. Oktober 2026 veröffentlicht.
+
+## 1.0.0-beta.8 — 25. Oktober 2026
+
+- Markenname vereinheitlicht: OCB.GG - Glass & Dark Theme. Der bestehende Style-Identifier bleibt für Updates erhalten.
+- Übertragbare Qualitätsverbesserungen aus TS6 rc.32: graue Channelgruppen-Fläche, lesbare deaktivierte Menüeinträge und Eingaben, klare inaktive Auswahl, Fokus für Dezimalfelder und vertikale Regler. Helle Vektorpfeile verbessern die Erkennbarkeit der numerischen Eingaben.
+- OCB.GG-Link im Server-Infobereich und in der neuen HOW TO USE-Anleitung.
+- Schlankes Download-ZIP mit Anleitung, Nutzungsbedingungen und nativem TS3-Installationspaket. Keine Diagnose- oder Entwicklerdateien. Unbenutzte Bilddateien sind nicht mehr im installierten Paket enthalten.
+- Reproduzierbarer Paketbau, Paketprüfung und portable native Qt-Testoberfläche ergänzt.
+- Hintergrund, Wasserzeichen, lachsrote TS3-Akzente, native Icons und Nutzerinformationen bleiben erhalten. Identität weiterhin zuletzt, Talk Power weiterhin ausgeblendet.
+- Funktionsvergleich mit TS6 dokumentiert. Dashboard, Bildschirmfreigabe, Rollenfarben und neue interaktive Chatfunktionen sind keine nachrüstbaren TS3-Theme-Funktionen.
+- Geprüft in nativen Qt-Testoberflächen; kein vollständiger Live-Test eines verbundenen TS3-Clients. Weiterhin Beta.
 
 ## 1.0.0-beta.7
 

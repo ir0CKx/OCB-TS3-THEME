@@ -1,4 +1,5 @@
 <div class="InfoFrame">
+<p><a href="https://ocb.gg/">Besuche uns · OCB.GG</a></p>
 <h2>%%SERVER_ICON_SCALED%% %%SERVER_NAME%%</h2>
 <table class="InfoFrame_Table">
 <tr><td>%%TR_SERVER_ADDRESS%%</td><td>%%SERVER_ADDRESS%% :%%SERVER_PORT%%</td></tr>

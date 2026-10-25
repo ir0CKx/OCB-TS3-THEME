@@ -1,8 +1,8 @@
-﻿# OCB.GG Obsidian Glass – Nutzungsbedingungen
+﻿# OCB.GG - Glass & Dark Theme – Nutzungsbedingungen
 Version 1.0 · Stand: 22. Oktober 2026
 
 ## 1. Gegenstand
-Diese Bedingungen gelten für das von OCB.GG / #OTHERSCANTBEAT bereitgestellte Theme „OCB.GG Obsidian Glass“ für TeamSpeak 3 einschließlich QSS, Installationshilfen und mitgelieferter OCB-Grafiken. Sie gelten auch für die optionalen Serverbanner. Für TeamSpeak selbst gelten die Bedingungen des jeweiligen Anbieters. Dieses Theme ist ein eigenständiges Community-Projekt und kein offizielles Produkt von TeamSpeak.
+Diese Bedingungen gelten für das von OCB.GG / #OTHERSCANTBEAT bereitgestellte Theme „OCB.GG - Glass & Dark Theme“ für TeamSpeak 3 einschließlich QSS, Installationshilfen und mitgelieferter OCB-Grafiken. Sie gelten auch für die optionalen Serverbanner. Für TeamSpeak selbst gelten die Bedingungen des jeweiligen Anbieters. Dieses Theme ist ein eigenständiges Community-Projekt und kein offizielles Produkt von TeamSpeak.
 
 Offizielles Projekt: https://github.com/ir0CKx/OCB-TS3-THEME
 

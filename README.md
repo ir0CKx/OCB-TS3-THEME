@@ -1,13 +1,13 @@
-# OCB.GG Obsidian Glass — TeamSpeak 3
+# OCB.GG - Glass & Dark Theme — TeamSpeak 3
 
-Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.7**.
+Eigenständiges OCB-Client-Theme für TeamSpeak 3, Version **1.0.0-beta.8**.
 Anthrazit, lachsrote Akzente, durchgehende Glastextur im Serverbaum und Original-OCB-Banner.
 Menüs, Einstellungen, Chat, Tabellen, Eingaben und Statusleiste erhalten passende Farben.
 
-[Changelog – Änderungen bis Beta 7](CHANGELOG.md)
+[Changelog – Änderungen bis Beta 8](CHANGELOG.md)
 
 ## Download und Installation
-1. [OCB-Obsidian-Glass-TS3-1.0.0-beta.7.ts3_style](downloads/OCB-Obsidian-Glass-TS3-1.0.0-beta.7.ts3_style) herunterladen (bei GitHub **Download raw file**).
+1. [Downloadpaket mit HOW TO USE](https://github.com/ir0CKx/OCB-TS3-THEME/releases/tag/v1.0.0-beta.8) herunterladen und entpacken. Alternativ: [direktes TS3-Installationspaket](downloads/OCB.GG-Glass-Dark-Theme-TS3-v1.0.0-beta.8.ts3_style).
 2. Datei doppelklicken und im TeamSpeak-Paketinstaller installieren.
 3. In TS3 **Extras → Optionen → Design** das Theme **ocb_obsidian** wählen. Falls angeboten, den Stil **Fusion** wählen; dieser ist die geprüfte Qt-Basis.
 4. Übernehmen und TS3 gegebenenfalls neu starten.
@@ -19,11 +19,17 @@ Deinstallation: zuerst Standardtheme wählen, danach `ocb_obsidian.qss`, `ocb_ob
 
 ## Grafik und Grenzen
 - Glastextur: 3840 × 2160, aus 1672 × 941 hochskaliert; keine native 4K-Detailaufnahme.
-- Originalbanner: 2172 × 724, unverändert mitgeliefert. Als TS3-Hostbanner mit proportionaler Skalierung verwenden; kein zusätzliches Bild mit fester Breite im Info-Template.
+- Originalbanner: 2172 × 724, im Quellrepository als separate Servergrafik verfügbar. Das schlanke Installationspaket enthält nur tatsächlich vom Theme verwendete Dateien. Als TS3-Hostbanner mit proportionaler Skalierung verwenden; kein zusätzliches Bild mit fester Breite im Info-Template.
 - Ein Hintergrund über den gesamten Kanalbaum, keine wiederholten Bildstreifen je Kanal. Die Textur bleibt proportional und fest verankert, wird nicht auf die Fensterform gestreckt und läuft nach unten weich in die Grundfarbe aus.
 - Original-Bigcircle im Infobereich. Vorhandene Server-, Gruppen-, Mikrofon- und Statusicons bleiben erhalten. Dieses Paket ersetzt keine globalen Servericons.
 - Keine Plugins, Skripte oder extern geladenen Ressourcen. Das Theme fügt keine Bildschirmfreigabe oder andere Clientfunktionen hinzu.
 - Aufbau anhand der installierten TS3-3.5.6-Dateien geprüft. Native Qt-5-Testoberfläche geprüft; noch kein vollständiger Funktionstest im laufenden TS3-Client. Daher ausdrücklich Beta. Andere Versionen und Betriebssysteme sind nicht live geprüft.
+
+## Abgleich mit TS6 rc.32
+
+Beta 8 übernimmt die auf Qt übertragbaren Verbesserungen: graue Channelgruppen-Kennzeichnung, lesbare deaktivierte und inaktive Zustände, Fokus für Dezimalfelder, vertikale Lautstärkeregler und ein bereinigtes Downloadpaket. Die bewährte Hintergrundskalierung und die bisherigen lachsroten TS3-Akzente bleiben erhalten.
+
+[Funktionsvergleich und Plattformgrenzen](docs/PARITAET-TS6.md) · [Build und Prüfungen](docs/DEVELOPMENT.md). TS6-Dashboard und Bildschirmfreigabe lassen sich nicht als TS3-Theme nachrüsten.
 
 ## Vorschau
 ![Native Qt-Testoberfläche, kein Screenshot eines verbundenen TS3-Clients](preview.png)

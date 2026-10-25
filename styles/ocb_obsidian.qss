@@ -1,4 +1,4 @@
-/* OCB.GG Obsidian Glass — TS3 / 1.0.0-beta.7
+/* OCB.GG - Glass & Dark Theme | TS3 | 1.0.0-beta.8
  * QPalette::Window = #14171b;
  * QPalette::WindowText = #eef0f3;
  * QPalette::Base = #101318;
@@ -30,7 +30,7 @@ QPushButton:pressed, QToolButton:pressed, QToolButton:checked { background: #884
 QPushButton:focus, QToolButton:focus { border: 2px solid #fa8072; padding: 4px 8px; }
 QPushButton:disabled, QToolButton:disabled { background: #1c2026; border-color: #343c47; }
 QLineEdit, QTextEdit, QPlainTextEdit, QComboBox, QSpinBox, QDoubleSpinBox { background: #101318; border: 1px solid #677382; border-radius: 4px; padding: 5px; }
-QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QComboBox:focus, QSpinBox:focus { border-color: #fa8072; }
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus { border-color: #fa8072; }
 QComboBox QAbstractItemView { background: #202731; selection-background-color: #884038; }
 QAbstractItemView { background: #101318; alternate-background-color: #1b2026; border: 1px solid #343c47; }
 QTreeView::item, QListView::item { padding: 4px 2px; }
@@ -67,3 +67,23 @@ QSlider::handle:horizontal { width: 14px; margin: -5px 0; background: #fa8072; b
 QLabel#OptionsHeadlineTitleLabel, QLabel#OptionsHeadlineDescriptionLabel { color: #eef0f3; }
 QWidget#HeadlineLabel, QLabel#bookmarksBanner, QLabel#identitiesBanner, QLabel#accountLoginBanner, QLabel#accountCreateBanner { background: #252b33; color: #eef0f3; padding: 8px; }
 QStatusBar::item { border: 0; }
+
+/* TS6 RC32 parity: distinguish unavailable actions and persistent selection.
+   Native status icons, tree geometry and TS3 actions remain untouched. */
+QMenu::item:disabled { color: #969eaa; background: transparent; }
+QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled,
+QComboBox:disabled, QSpinBox:disabled, QDoubleSpinBox:disabled {
+  color: #969eaa; background: #1c2026; border-color: #343c47;
+}
+QTreeView::item:selected:!active, QListView::item:selected:!active,
+QTableView::item:selected:!active { background: #42474f; color: #f3f4f6; }
+QTreeView#ServerTreeView::item:selected:!active { background: #42474f; color: #f3f4f6; }
+QSlider::groove:vertical { width: 5px; background: #485362; }
+QSlider::handle:vertical { height: 14px; margin: 0 -5px; background: #fa8072; border-radius: 3px; }
+QSlider::handle:disabled { background: #737c87; }
+QSplitter::handle:pressed { background: #fa8072; }
+QSpinBox, QDoubleSpinBox { padding-right: 24px; }
+QSpinBox::up-button, QDoubleSpinBox::up-button { subcontrol-origin: border; subcontrol-position: top right; width: 22px; background: #252b33; border: 0; }
+QSpinBox::down-button, QDoubleSpinBox::down-button { subcontrol-origin: border; subcontrol-position: bottom right; width: 22px; background: #252b33; border: 0; }
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow { image: url('styles:ocb_obsidian/arrow-up.svg'); width: 10px; height: 6px; }
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow { image: url('styles:ocb_obsidian/arrow-down.svg'); width: 10px; height: 6px; }

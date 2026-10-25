@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-beta.7",
+  "version": "1.0.0-beta.8",
   "qt": "5.15.2",
   "qss_parse_errors": [],
   "assets_decode": true,
@@ -8,6 +8,11 @@
     "1280x1700",
     "1100x1100 client info"
   ],
+  "controls_fonts_pt": [
+    10,
+    15
+  ],
+  "disabled_text_palette_verified": true,
   "background_stretch_removed": true,
   "client_fields_documented": true,
   "optional_fields_fixture_test": true,
